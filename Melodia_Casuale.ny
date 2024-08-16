@@ -2,6 +2,7 @@
 ;version 4
 ;type generate
 ;name "Melodia Casuale"
+;copyright "Released under terms of the GNU General Public License version 2 or later"
 
 ; Aggiungi semitoni alla melodia casuale
 ;control Gen "N. Note" int "60 (Max)" 30 1 60
