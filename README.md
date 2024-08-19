@@ -8,5 +8,6 @@ This plugin is for want have in less time a melody (like a MIDI file) respect IA
 ![image](https://github.com/user-attachments/assets/b607d4bc-6094-4f90-a4c3-ba36898aa720)
 ![image](https://github.com/user-attachments/assets/6a8cd677-24f8-4ee0-8dda-7ea7e682d791)
 # Version 
-There is the version in italian. If you want the version in english go to the branch "english version".
+There is a version in italian and a version in english.
 Download it from this repository.
+
