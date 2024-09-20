@@ -14,7 +14,7 @@
     (nth (random (length notes)) notes)))
 
 (defun random-duration ()
-  (let ((durations '(0.5 1 1.5 2))) ; Durate predefinite
+  (let ((durations '(0.5 1 1.5 2)))
     (nth (random (length durations)) durations)))
 
 (defun midi-to-hz (midi-note)
@@ -22,9 +22,9 @@
 
 (defun generate-melody (length)
   (if (<= length 0)
-      (osc 0 0) ; Restituisce un suono silenzioso invece di nil
+      (osc 0 0)
       (seq (osc (hz-to-step (midi-to-hz (random-note))) (random-duration))
            (generate-melody (- length 1)))))
 
-(generate-melody Gen) ; Genera toni casuali per Gen volte
+(generate-melody Gen)
 
