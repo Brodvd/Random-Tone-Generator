@@ -5,8 +5,8 @@ $name (_ "Melodia Casuale")
 $copyright (_ "GNU General Public License v2.0")
 
 ; Aggiungi semitoni alla melodia casuale
-$control Gen (_ "N. Note") int "60 ((_ Max))" 30 1 60
-$control Choice (_ "Tipologia di generazione") choice (_ "Solo Toni"),(_ "Toni e Semitoni") Solo Toni
+$control Gen (_ "N. Note") int "60 (Max)" 30 1 60
+$control Choice (_ "Tipologia di generazione") choice ((_ "Solo Toni") (_ "Toni e Semitoni")) Solo Toni
 
 (defun random-note ()
   (let ((notes (if (equal Choice "Solo Toni")
