@@ -27,4 +27,4 @@ $control Choice (_ "Tipologia di generazione") choice ((_ "Solo Toni") (_ "Toni 
       (seq (osc (hz-to-step (midi-to-hz (random-note))) (random-duration))
            (generate-melody (- length 1)))))
 
-(generate-melody Gen)
+(mult (generate-melody Gen) 0.5)
